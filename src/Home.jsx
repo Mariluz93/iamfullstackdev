@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom'
 const Home = ({data}) => {
   return (
     <>
-    <h2>Lista de datos</h2>
+    <h2>Lista de tareas</h2>
     <ul>
       {data.map(item => (
         <li key={item._id}>
